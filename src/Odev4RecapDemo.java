@@ -3,11 +3,16 @@ public class Odev4RecapDemo {
         int a = 10;
         int b = 4;
         int c = 5;
-        int enBuyuk=a;
-        if (enBuyuk<b ) {
-            enBuyuk=b;
-        }if (enBuyuk<c) {
-            enBuyuk=c;
+        int enBuyuk = a;
+
+        if (enBuyuk < b) {
+            enBuyuk = b;
         }
-            System.out.println("EN BÜYÜK SAYI=" + enBuyuk);
-}}
+        if (enBuyuk < c) {
+            enBuyuk = c;
+        }
+        System.out.println("EN BÜYÜK SAYI=" + enBuyuk);
+
+
+    }
+}
